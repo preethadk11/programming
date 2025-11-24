@@ -1,4 +1,4 @@
 sentence="Python is fun and powerful"
-list1=list(sentence.split())
-list1.reverse()
+list1=" ".join(sentence.split()[::-1])
+
 print(list1)
